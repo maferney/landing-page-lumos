@@ -1,0 +1,43 @@
+.logo {
+    width: 150px;
+    object-fit: cover;
+}
+
+.bg-nav {
+    background-color: lightblue;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: underline;
+}
+
+.clearfix img {
+    width: 300px;
+}
+
+.clearfix {
+    background-color: whitesmoke;
+}
+
+.p {
+    font-size: medium;
+    font-size: 1rem;
+}
+
+.card img {
+    border: 50px;
+   padding: 50px;
+
+}
+
+.card-group {
+    border: none;
+    padding: 20px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.carousel-inner {
+    margin-top: 5px;
+}
