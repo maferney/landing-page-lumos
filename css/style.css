@@ -5,9 +5,9 @@
 }
 
 .fs-4 {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 2rem;
-    
+
 }
 
 .titulo {
@@ -43,7 +43,7 @@
     border: none;
     padding: 20px;
     text-align: center;
-    background-color: lightgray;
+    background-color: whitesmoke;
 }
 
 .carousel-inner {
@@ -54,4 +54,15 @@
     margin-top: 5px;
     padding: 20px;
     font-size: 1rem;
+}
+
+.clearfix img {
+    width: 550px;
+}
+
+/*.card img {
+    width: 750px;
+    margin-left: 300px;
+    margin-bottom: none;
+    
 }
