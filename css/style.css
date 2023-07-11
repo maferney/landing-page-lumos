@@ -27,7 +27,7 @@
 
 .card img {
     border: 50px;
-   padding: 50px;
+    padding: 50px;
 
 }
 
@@ -40,4 +40,10 @@
 
 .carousel-inner {
     margin-top: 5px;
+}
+
+.col {
+    margin-top: 5px;
+    padding: 20px;
+    font-size: 1rem;
 }
