@@ -1,3 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap");
+nav {
+  background-color: lightblue;
+  font-family: 'Times New Roman', Times, serif; }
 
+.logo {
+  width: 150px;
+  object-fit: cover; }
 
-/*# sourceMappingURL=style.css.map */
+nav ul {
+  font-family: "Roboto", sans-serif; }
+
+nav ul li {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2rem;
+  text-decoration: underline; }
+
+.titulo {
+  text-decoration: underline;
+  text-align: center; }
+
+.clearfix {
+  background-color: lightgray; }
+
+.inicio {
+  width: 550px; }
+
+p {
+  padding: 20px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2rem; }
+
+.card {
+  background-color: whitesmoke; }
+
+.nosotros {
+  width: 550px;
+  object-position: center; }
+
+.card-title {
+  text-align: center;
+  text-decoration: underline; }
