@@ -6,6 +6,9 @@ $font-family-roboto: 'Roboto', sans-serif;
 padding: 0;
 box-sizing: border-box;}
 
+body {
+    background-color: whitesmoke;}
+
 nav {
     background-color: lightblue;
     font-family: 'Times New Roman', Times, serif;}
@@ -14,10 +17,10 @@ nav {
         object-fit: cover;}
         nav ul {
             font-family: $font-family-roboto;}
-                nav ul li {
-                    font-family: Arial, Helvetica, sans-serif;
-                    line-height: 2rem;
-                    text-decoration: underline;}
+            nav ul li {
+                font-family: Arial, Helvetica, sans-serif;
+                line-height: 2rem;
+                text-decoration: underline;}
 
 .titulo { 
     text-decoration: underline;
@@ -31,25 +34,10 @@ nav {
         .inicio {
             width: 550px;}
             p {
-                padding: 20px;
-                text-align: justify;
-                font-family: Arial, Helvetica, sans-serif;
-                line-height: 2rem; }
-
-.card {
-    background-color: whitesmoke;
-    padding-top: 1rem;
-    padding-right: 1rem;
-    padding-left: 1rem;}
-    .nosotros {
-        width: 550px;
-        object-position: center;}
-        .card-title {
-            text-align: center;
-            text-decoration: underline;}
-            p {
-                font-family: Arial, Helvetica, sans-serif;
-                line-height: 2rem;}
+            padding: 20px;
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 2rem; }
 
 .carrusel {
     background-color: black;
@@ -66,5 +54,23 @@ footer {
     .mb-3 {
         font-size: large;
         font-family: Arial, Helvetica, sans-serif;}
+
+        .nosotros {
+            background-color: lightgrey;
+            display: flex; 
+            justify-content: space-around;
+            width: 100%;}
+            .mision {
+                width: 50%;
+                justify-items: center;}
+                h3 {
+                    font-size: 2rem;
+                    text-align: center;}
+                    p{
+                    font-size: 1rem;
+                    font-family: Arial, Helvetica, sans-serif;
+                    line-height: 2rem;}
+        
+
 
 
