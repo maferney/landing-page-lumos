@@ -34,7 +34,8 @@ nav ul li {
   padding-left: 1rem; }
 
 .inicio {
-  width: 550px; }
+  width: 400px;
+  border: 2px solid black; }
 
 p {
   padding: 20px;
@@ -49,7 +50,8 @@ p {
   padding-bottom: 2rem; }
 
 .servicios {
-  width: 550px; }
+  width: 400px;
+  border: 2px solid black; }
 
 footer {
   background-color: lightgray;
@@ -62,12 +64,15 @@ footer {
 .nosotros {
   background-color: lightgrey;
   display: flex;
-  justify-content: space-around;
-  width: 100%; }
+  justify-content: space-around; }
 
 .mision {
   width: 50%;
-  justify-items: center; }
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
 
 h3 {
   font-size: 2rem;
