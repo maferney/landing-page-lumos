@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 nav {
   background-color: lightblue;
   font-family: 'Times New Roman', Times, serif; }
@@ -20,7 +25,10 @@ nav ul li {
   text-align: center; }
 
 .clearfix {
-  background-color: lightgray; }
+  background-color: lightgray;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem; }
 
 .inicio {
   width: 550px; }
@@ -32,7 +40,10 @@ p {
   line-height: 2rem; }
 
 .card {
-  background-color: whitesmoke; }
+  background-color: whitesmoke;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem; }
 
 .nosotros {
   width: 550px;
@@ -41,3 +52,24 @@ p {
 .card-title {
   text-align: center;
   text-decoration: underline; }
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2rem; }
+
+.carrusel {
+  background-color: black;
+  width: fit-content;
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+
+.servicios {
+  width: 550px; }
+
+footer {
+  background-color: lightgray;
+  padding-top: 1rem; }
+
+.mb-3 {
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif; }
