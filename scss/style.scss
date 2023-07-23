@@ -2,7 +2,8 @@
 
 $font-family-roboto: 'Roboto', sans-serif;
 
-*{margin: 0;
+*{
+margin: 0;
 padding: 0;
 box-sizing: border-box;}
 
@@ -27,18 +28,44 @@ nav {
     text-align: center;}
 
 .clearfix {
-        background-color: lightgray;
-        padding-top: 1rem;
-        padding-right: 1rem;
-        padding-left: 1rem;}
-        .inicio {
-            width: 400px;
-            border: 2px solid black;}
-            p {
+    background-color: lightgray;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;}
+    .inicio {
+        width: 400px;
+        border: 2px solid black;}
+        p {
             padding: 20px;
             text-align: justify;
             font-family: Arial, Helvetica, sans-serif;
             line-height: 2rem; }
+
+.servicios {
+    width: 400px;
+    border: 2px solid black;}
+
+.nosotros {
+    background-color: lightgrey;
+    display: flex; 
+    justify-content: space-around;
+    justify-items: center;}
+    .mision {
+        padding-top: 1rem;
+        margin: 0 auto;
+        width: 40%;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;}
+        h3 {
+            font-size: 2rem;
+            text-align: center;}
+            p{
+                font-size: 1rem;
+                font-family: Arial, Helvetica, sans-serif;
+                line-height: 2rem;}
 
 .carrusel {
     background-color: black;
@@ -46,36 +73,27 @@ nav {
     padding-top: 2rem;
     padding-bottom: 2rem;}
 
-.servicios {
-    width: 400px;
-    border: 2px solid black;}
-
-footer {
+.contacto {
     background-color: lightgray;
-    padding-top: 1rem;}
+    padding-top: 1rem;
+    padding-bottom: 2rem;}
     .mb-3 {
+        margin: 0 auto;
         font-size: large;
         font-family: Arial, Helvetica, sans-serif;}
 
-        .nosotros {
-            background-color: lightgrey;
-            display: flex; 
-            justify-content: space-around;}
-            .mision {
-                width: 50%;
-                border: 2px solid black;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;}
-                h3 {
-                    font-size: 2rem;
-                    text-align: center;}
-                    p{
-                    font-size: 1rem;
-                    font-family: Arial, Helvetica, sans-serif;
-                    line-height: 2rem;}
-        
-
-
+footer {
+    margin-top: 20px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: lightblue;}
+    p {font-size: 1rem;
+    text-align: center;}
+    .redes{
+        display: flex;
+        justify-content: space-around;}
+    .redes img {
+        align-items: center;
+        width: 5%;
+        justify-content: space-around;}
 
