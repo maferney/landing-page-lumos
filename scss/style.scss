@@ -1,26 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
 
 $font-family-roboto: 'Roboto', sans-serif;
+$coloruno: whitesmoke;
+$colordos: lightgrey;
 
 *{
 margin: 0;
 padding: 0;
 box-sizing: border-box;}
 
+
 body {
-    background-color: whitesmoke;}
+    background-color: $coloruno;}
+
+@mixin tipografia {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2rem;}
 
 nav {
     background-color: lightblue;
-    font-family: 'Times New Roman', Times, serif;}
+    $font-family-roboto: 'Roboto', sans-serif;} 
     .logo {
         width: 150px;
         object-fit: cover;}
         nav ul {
             font-family: $font-family-roboto;}
             nav ul li {
-                font-family: Arial, Helvetica, sans-serif;
-                line-height: 2rem;
+                @include tipografia;
                 text-decoration: underline;}
 
 .titulo { 
@@ -28,25 +34,23 @@ nav {
     text-align: center;}
 
 .clearfix {
-    background-color: lightgray;
+    background-color: $colordos;
     padding-top: 1rem;
     padding-right: 1rem;
     padding-left: 1rem;}
     .inicio {
         width: 400px;
         border: 2px solid black;}
-        p {
+        .fs-4 {
             padding: 20px;
             text-align: justify;
-            font-family: Arial, Helvetica, sans-serif;
-            line-height: 2rem; }
+            @include tipografia; }
 
 .servicios {
-    width: 400px;
-    border: 2px solid black;}
+    @extend .inicio}
 
 .nosotros {
-    background-color: lightgrey;
+    background-color: $colordos;
     display: flex; 
     justify-content: space-around;
     justify-items: center;}
@@ -64,8 +68,7 @@ nav {
             text-align: center;}
             p{
                 font-size: 1rem;
-                font-family: Arial, Helvetica, sans-serif;
-                line-height: 2rem;}
+                @include tipografia;}
 
 .carrusel {
     background-color: black;
@@ -74,7 +77,7 @@ nav {
     padding-bottom: 2rem;}
 
 .contacto {
-    background-color: lightgray;
+    background-color: $colordos;
     padding-top: 1rem;
     padding-bottom: 2rem;}
     .mb-3 {
@@ -96,4 +99,3 @@ footer {
                 align-items: center;
                 width: 5%;
                 justify-content: space-around;}
-

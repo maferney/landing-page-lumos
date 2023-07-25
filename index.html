@@ -15,6 +15,11 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="./css/style.css">
 
+    <!--Animaciones-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 </head>
 
 <body>
@@ -102,16 +107,17 @@
 
         <section class="nosotros" id="nosotros">
             
-            <div class="mision">
-                <img src="./img/mision.jpg" class="mision" alt="mision">
+            <div class="card-group">
+            <div class="mision card">
+                <img src="./img/mision.jpg" class="mision img-fluid" alt="mision">
                 <h3>Misión</h3>
                 <p>
                     Nuestra misión es proporcionar soluciones de marketing y desarrollo web de alta calidad y efectivas
                     para nuestros clientes.
                 </p>
             </div>
-                    <div class="mision">
-                        <img src="./img/vision.png" class="mision" alt="mision">
+                    <div class="mision card">
+                        <img src="./img/vision.png" class="mision img-fluid" alt="mision">
                         <h3>Visión</h3>
                         <p>
                             Nuestra visión es ser reconocidos como líderes en el campo del marketing y desarrollo web,
@@ -119,6 +125,7 @@
                             nivel local como global.
                         </p>
                     </div>
+                </div>
 
         </section>
 
@@ -188,6 +195,7 @@
         <h2 class="titulo">Contacto</h2>
 
         <section id="contacto">
+            
             <div class="contacto container text-center">
                 <div class="row align-items-center">
                     <div class="col">
@@ -219,13 +227,16 @@
         </section>
 
         <footer>
+
             <p>Síguenos en nuestras Redes Sociales</p>
+            <div><div class="animate__animated animate__bounce animate__infinite	infinite">
             <div class="redes">
             <img src="./img/whatsapp.svg">
             <img src="./img/instagram.svg">
             <img src="./img/facebook.svg">
             <img src="./img/github.svg">
-        </div>
+            </div>
+            </div>
         </footer>
 
         <!--Fin Bootstrap-->

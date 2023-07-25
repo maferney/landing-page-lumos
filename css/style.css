@@ -8,8 +8,7 @@ body {
   background-color: whitesmoke; }
 
 nav {
-  background-color: lightblue;
-  font-family: 'Times New Roman', Times, serif; }
+  background-color: lightblue; }
 
 .logo {
   width: 150px;
@@ -28,24 +27,20 @@ nav ul li {
   text-align: center; }
 
 .clearfix {
-  background-color: lightgray;
+  background-color: lightgrey;
   padding-top: 1rem;
   padding-right: 1rem;
   padding-left: 1rem; }
 
-.inicio {
+.inicio, .servicios {
   width: 400px;
   border: 2px solid black; }
 
-p {
+.fs-4 {
   padding: 20px;
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 2rem; }
-
-.servicios {
-  width: 400px;
-  border: 2px solid black; }
 
 .nosotros {
   background-color: lightgrey;
@@ -79,7 +74,7 @@ p {
   padding-bottom: 2rem; }
 
 .contacto {
-  background-color: lightgray;
+  background-color: lightgrey;
   padding-top: 1rem;
   padding-bottom: 2rem; }
 
