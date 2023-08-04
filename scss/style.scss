@@ -17,25 +17,29 @@ body {
 @mixin tipografia {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
     }
 
 nav {
     background-color: lightblue;
     $font-family-roboto: 'Roboto', sans-serif;
-    .logo {
-        width: 150px;
-        object-fit: cover;
-        nav ul {
-            font-family: $font-family-roboto;
-            nav ul li {
-                @include tipografia;
-                text-decoration: underline;
-                }
-            }
-        }
+    h1 {
+        font-size: 1rem;
+        color: black;}
+        .logo {
+            width: 150px;
+            object-fit: cover;}
+            nav ul {
+                font-family: $font-family-roboto;}
+                nav ul li {
+                    @include tipografia;}
     }
 
-.titulo { 
+
+
+.titulo {
+    font-size: 2rem;
     text-decoration: underline;
     text-align: center;
     }
@@ -47,35 +51,39 @@ nav {
     padding-left: 1rem;
     .inicio {
         width: 400px;
-        border: 2px solid black;
-        .fs-4 {
+        border: 2px solid black;}
+        p{
             padding: 20px;
             text-align: justify;
-            @include tipografia; 
-            }
-        }
+            @include tipografia;} 
     }
 
 .servicios {
     @extend .inicio
 }
-
 .nosotros {
-    background-color: $colordos;
+    margin: 0 auto;
     display: flex; 
     justify-content: space-around;
     justify-items: center;
-    .fa-solid, .fas{
-        font-size: 5rem;
-        h3 {
+    .icono {
+        font-size: 15rem;
+        padding-top: 1rem;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        list-style: none;
+        color: #79C7CD;}
+        h3{
             font-size: 2rem;
-            text-align: center;
+            text-align: center;}
                 p{
-                    font-size: 1rem;
+                    padding: 20px;
+                    text-align: justify;
                     @include tipografia;
                 }
-            }
-        }
     }
 
 
@@ -97,21 +105,21 @@ nav {
         }
     }
 
-footer {
-    margin-top: 20px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: lightblue;
-    p {font-size: 1rem;
-        text-align: center;
-        .redes{
-            display: flex;
-            justify-content: space-around;
-            .redes img {
-                align-items: center;
-                width: 5%;
-                justify-content: space-around;
-                }
-            }
-        }
+    footer {
+        margin-top: 20px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: lightblue;
+        p{
+            font-size: 1rem;
+            text-align: center;}
+            .redes{
+                display: flex;
+                justify-content: space-around;}
+                .redes img {
+                    align-items: center;
+                    width: 4%;
+                    justify-content: space-around;
+                    }
     }
+
