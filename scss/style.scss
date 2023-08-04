@@ -11,91 +11,115 @@ box-sizing: border-box;}
 
 
 body {
-    background-color: $coloruno;}
+    background-color: $coloruno;
+    }
 
 @mixin tipografia {
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 2rem;}
+    line-height: 2rem;
+    }
 
 nav {
     background-color: lightblue;
-    $font-family-roboto: 'Roboto', sans-serif;} 
+    $font-family-roboto: 'Roboto', sans-serif;
     .logo {
         width: 150px;
-        object-fit: cover;}
+        object-fit: cover;
         nav ul {
-            font-family: $font-family-roboto;}
+            font-family: $font-family-roboto;
             nav ul li {
                 @include tipografia;
-                text-decoration: underline;}
+                text-decoration: underline;
+                }
+            }
+        }
+    }
 
 .titulo { 
     text-decoration: underline;
-    text-align: center;}
+    text-align: center;
+    }
 
 .clearfix {
     background-color: $colordos;
     padding-top: 1rem;
     padding-right: 1rem;
-    padding-left: 1rem;}
+    padding-left: 1rem;
     .inicio {
         width: 400px;
-        border: 2px solid black;}
+        border: 2px solid black;
         .fs-4 {
             padding: 20px;
             text-align: justify;
-            @include tipografia; }
+            @include tipografia; 
+            }
+        }
+    }
 
 .servicios {
-    @extend .inicio}
+    @extend .inicio
+}
 
 .nosotros {
     background-color: $colordos;
     display: flex; 
     justify-content: space-around;
-    justify-items: center;}
+    justify-items: center;
     .mision {
         padding-top: 1rem;
         margin: 0 auto;
-        width: 40%;
         border: 2px solid black;
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;}
+        flex-direction: column;
         h3 {
             font-size: 2rem;
-            text-align: center;}
-            p{
-                font-size: 1rem;
-                @include tipografia;}
+            text-align: center;
+            .icono {
+                width: 500px;
+                p{
+                    font-size: 1rem;
+                    @include tipografia;
+                }
+            }
+        }
+    }
+}
 
 .carrusel {
     background-color: black;
     width: fit-content;
     padding-top: 2rem;
-    padding-bottom: 2rem;}
+    padding-bottom: 2rem;
+    }
 
 .contacto {
     background-color: $colordos;
     padding-top: 1rem;
-    padding-bottom: 2rem;}
+    padding-bottom: 2rem;
     .mb-3 {
         margin: 0 auto;
         font-size: large;
-        font-family: Arial, Helvetica, sans-serif;}
+        font-family: Arial, Helvetica, sans-serif;
+        }
+    }
 
 footer {
     margin-top: 20px;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: lightblue;}
+    background-color: lightblue;
     p {font-size: 1rem;
-        text-align: center;}
+        text-align: center;
         .redes{
             display: flex;
-            justify-content: space-around;}
+            justify-content: space-around;
             .redes img {
                 align-items: center;
                 width: 5%;
-                justify-content: space-around;}
+                justify-content: space-around;
+                }
+            }
+        }
+    }
