@@ -61,6 +61,11 @@ nav nav ul li {
   justify-content: space-around;
   justify-items: center;
 }
+@media screen and (max-width: 576px) {
+  .nosotros {
+    flex-direction: column;
+  }
+}
 .nosotros .icono {
   font-size: 15rem;
   padding-top: 1rem;
