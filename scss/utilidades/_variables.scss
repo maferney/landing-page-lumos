@@ -1,0 +1,20 @@
+//variables
+
+$font-family-roboto: 'Roboto', sans-serif;
+$coloruno: whitesmoke;
+$colordos: lightgrey;
+
+//mixins
+
+@mixin mobile {
+    @media screen and (max-width: 576px) {
+        @content;
+    }
+}
+
+@mixin tipografia {
+font-family: Arial, Helvetica, sans-serif;
+line-height: 2rem;
+font-size: 1rem;
+font-weight: bold;
+}
