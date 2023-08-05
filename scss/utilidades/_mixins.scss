@@ -1,0 +1,17 @@
+
+@mixin mobile {
+    @media screen and (max-width: 576px) {
+        @content;
+    }
+}
+
+@mixin tipografia {
+font-family: Arial, Helvetica, sans-serif;
+line-height: 2rem;
+font-size: 1rem;
+font-weight: bold;
+}
+
+.inicio {
+    width: 400px;
+    border: 2px solid black;}

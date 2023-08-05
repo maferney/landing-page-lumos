@@ -1,12 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: whitesmoke;
+.inicio, .servicios {
+  width: 400px;
+  border: 2px solid black;
 }
 
 nav {
@@ -28,6 +23,36 @@ nav nav ul li {
   line-height: 2rem;
   font-size: 1rem;
   font-weight: bold;
+}
+
+footer {
+  margin-top: 20px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: lightblue;
+}
+footer p {
+  font-size: 1rem;
+  text-align: center;
+}
+footer .redes {
+  display: flex;
+  justify-content: space-around;
+}
+footer .redes img {
+  align-items: center;
+  width: 4%;
+  justify-content: space-around;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
 }
 
 .titulo {
@@ -105,26 +130,6 @@ nav nav ul li {
   margin: 0 auto;
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-footer {
-  margin-top: 20px;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  background-color: lightblue;
-}
-footer p {
-  font-size: 1rem;
-  text-align: center;
-}
-footer .redes {
-  display: flex;
-  justify-content: space-around;
-}
-footer .redes img {
-  align-items: center;
-  width: 4%;
-  justify-content: space-around;
 }
 
 /*# sourceMappingURL=style.css.map */

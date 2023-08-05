@@ -1,0 +1,15 @@
+
+nav {
+    background-color: lightblue;
+    $font-family-roboto: 'Roboto', sans-serif;
+    h1 {
+        font-size: 1rem;
+        color: black;}
+        .logo {
+            width: 150px;
+            object-fit: cover;}
+            nav ul {
+                font-family: $font-family-roboto;}
+                nav ul li {
+                    @include tipografia;}
+    }

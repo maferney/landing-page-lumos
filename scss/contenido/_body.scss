@@ -1,0 +1,54 @@
+
+body {
+    background-color: $coloruno;
+    }
+
+
+.titulo {
+    font-size: map-get($spacings , medium );
+    text-decoration: underline;
+    text-align: center;
+    }
+
+.clearfix {
+    background-color: $colordos;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    .inicio {
+        width: 400px;
+        border: 2px solid black;}
+        p{
+            padding: 20px;
+            text-align: justify;
+            @include tipografia;} 
+    }
+
+.servicios {
+    @extend .inicio
+}
+.nosotros {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    @include mobile {
+        flex-direction: column;}
+    .icono {
+        font-size: 15rem;
+        padding-top: 1rem;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        list-style: none;
+        color: #79C7CD;}
+        h3{
+            font-size: 2rem;
+            text-align: center;}
+                p{
+                    padding: 20px;
+                    text-align: justify;
+                    @include tipografia;
+                }
+    }
